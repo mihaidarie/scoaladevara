@@ -1,0 +1,88 @@
+/***** Media queries *****/
+@media (min-width: 992px) and (max-width: 1199px) {
+	.navbar-inverse ul.navbar-nav li a { padding-top: 20px; padding-bottom: 0px; }
+	.services-box .services-box-icon { width: 60px; height: 60px; font-size: 32px; line-height: 60px; }
+	.program-box-text-left { padding-right: 0; }
+	.program-box-text-left:first-child { margin-top: 0; }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.navbar-inverse ul.navbar-nav li a { padding-top: 20px; padding-bottom: 0px; }
+	.section-container {padding-bottom: 40px; }
+	.section-description p { padding: 0; }
+	.top-content div.transbox { margin: 20px -10px; padding: 30px 30px 5px; }
+	.services-box .services-box-icon { width: 50px; height: 50px; font-size: 26px; line-height: 50px; }
+	.program-box { float: none; width: auto; margin-top: 0; }
+	.program-box-text { margin-top: 30px; padding-left: 0; text-align: left; }
+	.program-box-text-left { padding-right: 0; }
+	.abstract-poster-box .abstract-poster-box-icon { width: 50px; height: 50px; font-size: 26px; line-height: 50px; }
+	.gallery-bg { padding-top: 150px; }
+	.inner-bg {background-image: url(../img/backgrounds/991.jpg) center no-repeat !important; padding: 75px 0; }
+}
+
+@media (max-width: 767px) {
+	h1 { margin-top: 0px; font-size: 32px; line-height: 34px; }
+	h2 { margin-top: 0px; font-size: 24px; line-height: 26px; }
+	h3 { margin-top: 0px; font-size: 20px; line-height: 22px; }
+	.hideicon { display: none; }
+	.hidemedia { display: none; }
+	.medium-paragraph {	font-size: 18px; }
+	.top-content div.transbox h3 { line-height: 18px; opacity: 0.7; filter: alpha(opacity=70); /* For IE8 and earlier */}
+	.top-content p {line-height: 20px; }
+	.top-content div.transbox { margin: 20px -10px; padding: 25px 20px 1px; }
+	.navbar.navbar-no-bg { background: #444; }
+	.navbar-brand { margin-left: 15px; }
+	.navbar-collapse { border: 0; }
+	.navbar-inverse ul.navbar-nav li a { padding-top: 10px; padding-bottom: 10px; }
+	.navbar-inverse .navbar-toggle { border-color: #444; }
+	.inner-bg { padding: 140px 0; }
+	.section-container {padding-bottom: 30px; }
+	.section-description p { padding: 0; }
+	.services-container { padding-bottom: 30px; }
+	.services-box { text-align: left; }
+	.services-box h3 { margin-top: 20px; padding-top: 10px; }
+	.services-box .services-box-icon { width: 50px; height: 50px; font-size: 24px; line-height: 50px; }
+	.program-box { margin-top: 0; margin-bottom: 20px; }
+	.program-box-text { margin-top: 30px; padding-left: 0; text-align: left; }
+	.program-box-text-left { padding-right: 0; }
+	.abstract-poster-box { text-align: left; }
+	.abstract-poster-box h3 { margin-top: 20px; padding-top: 10px; }
+	.abstract-poster-box .abstract-poster-box-icon { width: 50px; height: 50px; font-size: 24px; line-height: 50px; }
+	.venue-box { text-align: left; }
+	.venue-box-image { max-width: 540px; margin: 0 auto; }
+	.support-box { text-align: left; }
+	.support-box-image { max-width: 540px; margin: 0 auto; }
+	.support-box h3 { margin-top: 30px; }
+	.gallery-bg { padding-top: 100px; }
+	.history-box-image { margin-top: 0px; }
+	.history-box-text { margin-top: 10px; margin-bottom: 20px; padding-right: 10px; }
+	footer { text-align: center; }
+	.footer-right { padding-top: 30px; }
+	.footer-social a { margin-left: 3px; margin-right: 3px; }
+	.btn-link-2 { height: 50px;	margin-bottom: 150px; padding: 10px 20px 0 20px; }
+	.inner-bg {background-image: url(../img/backgrounds/767.jpg) center no-repeat !important; padding: 75px 0; }
+}
+
+@media only screen and (max-width: 415px) {
+	
+	h1 { margin-top: -30px; font-size: 28px; line-height: 30px; }
+	h2 { margin-top: -30px; font-size: 24px; line-height: 26px; }
+	h3 { font-size: 20px; line-height: 22px; }
+	.top-content .medium-paragraph { font-size: 16px; line-height: 20px; }
+	.top-content div.transbox h3 { line-height: 20px; opacity: 0.8; filter: alpha(opacity=80); /* For IE8 and earlier */ }
+	.section-container { padding-bottom: 10px; }
+	.program-box { margin-top: 10px; margin-bottom: 20px; }
+	.abstract-poster-box { margin-top: 10px; }
+	.gallery-bg { padding-top: 100px; }
+	.inner-bg { background-image: url(../img/backgrounds/320.jpg) center no-repeat !important; padding: 50px 0; }
+}
+
+/* Retina-ize images/icons */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) 
+		
