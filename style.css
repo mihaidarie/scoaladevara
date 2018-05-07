@@ -1,4 +1,3 @@
-
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -459,6 +458,10 @@ ul.navbar-nav {
 }
 .history-box-image:hover img {
 	-o-transform: scale(1.25); -moz-transform: scale(1.25); -webkit-transform: scale(1.25); -ms-transform: scale(1.25); transform: scale(1.25);
+}
+#photos img {
+	width: 8em;
+	height: 5em;
 }
 
 /***** events section *****/
