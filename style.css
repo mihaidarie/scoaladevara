@@ -2,7 +2,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 500;
-    color: #888;
+    color: black;
     line-height: 30px;
     text-align: center;
 }
@@ -27,14 +27,14 @@ h2 {
 	margin-top: 10px;
 	font-size: 32px;
     font-weight: 700;
-    color: #666;
+    color: black;
     line-height: 40px;
     font-style: italic;
 }
 h3 {
 	font-size: 24px;
     font-weight: 600;
-    color: #777;
+    color: black;
     line-height: 28px;
     font-style: italic;
 }
@@ -208,8 +208,8 @@ ul.navbar-nav {
 
 /***** Top content *****/
 .inner-bg {
-	background-image: url(../img/backgrounds/1.jpg) center no-repeat !important;
-    padding: 100px 0; 
+	padding: 100px 0;
+	background-color: #c0cac9;
  }
 .top-content .text {
 	color: #fff;
@@ -283,6 +283,9 @@ ul.navbar-nav {
 }
 
 /***** Program section *****/
+#program {
+	background-color: #c0cac9;
+}
 .program-container {
 	overflow: hidden;
 }
@@ -482,7 +485,7 @@ ul.navbar-nav {
 /***** Footer *****/
 footer {
 	padding: 40px 0 0 0;
-	background: #444;
+	background: #f8f8f8;
 	color: #aaa;
 	text-align: left;
 }
@@ -536,15 +539,15 @@ footer h3 {
 	margin-top: 60px;
 	padding-top: 15px;
 	padding-bottom: 25px;
-	background: #3d3d3d;
+	background-color: #c0cac9;
 	text-align: center;
 }
 .footer-bottom a {
 	font-size: 32px;
-    color: #666;
+    color: black;
     line-height: 40px;
 }
-.footer-bottom a:hover, .footer-bottom a:focus { color: #888; }
+.footer-bottom a:hover, .footer-bottom a:focus { color: black; }
 
 /***** Table *****/
 .table-text {
@@ -575,16 +578,16 @@ footer h3 {
 
  /***** Panel *****/
 .panel .panel-footer {
-	background-color:#444;
+	background-color:#c0cac9;
 }
 .panel .panel-heading {
-	background-color:#444;
+	background-color:#c0cac9;
 }
 .panel-default {
-	background-color:#444;
+	background-color:#c0cac9;
 }
 .panel-title{
-font-size: 20px;
+font-size: 25px;
 }
 
 /***** Modal (not in use) *****/
@@ -602,7 +605,7 @@ font-size: 20px;
 }
 .modal-header .close {
 	font-size: 36px;
-	color: #888;
+	color: black;
 	font-weight: 300;
 	text-shadow: none;
 	opacity: 1;

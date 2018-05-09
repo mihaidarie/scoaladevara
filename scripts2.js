@@ -42,7 +42,7 @@ jQuery(document).ready(function() {
         Background slideshow
     */
     //$('.top-content').backstretch("assets/img/backgrounds/Cuza.jpg");
-    $('.registration-container').backstretch("assets/img/backgrounds/2.jpg");
+    // $('.registration-container').backstretch("assets/img/backgrounds/2.jpg");
     
     $('#top-navbar-1').on('shown.bs.collapse', function(){
     	$('.top-content').backstretch("resize");
