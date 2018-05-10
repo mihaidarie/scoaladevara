@@ -74,7 +74,6 @@ img {
 	margin: -30px 0 0 -30px;
 	width: 60px;
 	height: 60px;
-	background: url(../img/loading.gif) center center no-repeat;
 }
 
 /***** General style, all sections *****/
@@ -224,7 +223,7 @@ ul.navbar-nav {
 .top-content div.transbox {
   margin: 50px 50px 0px;
   padding: 50px 50px 10px;
-  background-color: #ffb100b8;
+  background-color: #a9a69fd1;
   opacity: 0.8;
   -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;
   filter: alpha(opacity=80); /* For IE8 and earlier */
@@ -480,7 +479,6 @@ ul.navbar-nav {
 /***** Footer *****/
 footer {
 	padding: 40px 0 0 0;
-	text-align: left;
 }
 .contact-form {
 	padding-top: 20px;
