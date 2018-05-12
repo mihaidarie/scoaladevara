@@ -159,6 +159,9 @@ ul.open {
 }
 
 /***** Divider *****/
+#topDivider {
+	width: 80%;
+}
 .divider-1 span {
 	display: inline-block;
 	width: 200px;
@@ -203,7 +206,7 @@ ul.navbar-nav {
 
 /***** Top content *****/
 .inner-bg {
-	padding: 100px 0;
+	padding-bottom: 3em;
 	background-color: #c0cac9;
  }
 .top-content .text {
@@ -229,7 +232,6 @@ ul.navbar-nav {
   filter: alpha(opacity=80); /* For IE8 and earlier */
 }
 .top-content div.transbox p {
-  /*margin-bottom: 50px;*/
   font-weight: 700;
   color: #000000;
   line-height: 26px; 
@@ -348,6 +350,9 @@ ul.navbar-nav {
 	overflow: hidden;
 	text-align: left;
 }
+.payment-details {
+	margin-top: 1em;
+}
 /***** venue section *****/
 .venue-box {
 	padding-top: 30px;
@@ -460,7 +465,26 @@ ul.navbar-nav {
 	width: 8em;
 	height: 5em;
 }
-
+.firstEditionYear {
+	text-decoration: underline;
+	font-size: 28px;
+}
+.firstEditionTitle {
+	font-size: 20px;
+}
+.firstEditionProgram {
+	font-size: 20px;
+	color: #d03909;
+}
+.firstEditionGallery {
+	font-size: 20px;
+}
+.firstEditionSupport {
+	font-size: 20px;
+}
+.firstEditionSupportHeader {
+	margin-top: 1em;
+}
 /***** events section *****/
 .events-container  {
 	margin-top: 30px;
@@ -531,11 +555,11 @@ footer {
 	text-align: center;
 }
 .footer-bottom a {
-	font-size: 32px;
-    color: black;
+	font-size: 20px;
+    color:#bd5a10;
     line-height: 40px;
 }
-.footer-bottom a:hover, .footer-bottom a:focus { color: black; }
+.footer-bottom a:hover, .footer-bottom a:focus { color: #bd5a10; }
 
 /***** Table *****/
 .table-text {
