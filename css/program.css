@@ -1,0 +1,30 @@
+#program, #registration, #venue, #support, #history, #footer {
+	background-color: #c0cac9;
+}
+.program-container {
+	overflow: hidden;
+}
+.program-box {
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+.program-box-text {
+	margin-top: 40px;
+	padding-left: 30px;
+	overflow: hidden;
+	text-align: left;
+}
+.program-box-text:first-child { 
+	margin-top: 20px; 
+}
+.program-box-text-left {
+	padding-left: 0;
+	padding-right: 30px;
+}
+.program-box-text h3 {
+	margin-top: 0;
+}
+.program-box-text .medium-paragraph {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
