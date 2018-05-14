@@ -1,12 +1,5 @@
-#program, #registration, #venue, #support, #history, #footer {
-	background-color: #c9eae7;
-}
 .program-container {
 	overflow: hidden;
-}
-.program-box {
-	margin-top: 30px;
-	margin-bottom: 50px;
 }
 .program-box-text {
 	margin-top: 40px;
@@ -23,8 +16,4 @@
 }
 .program-box-text h3 {
 	margin-top: 0;
-}
-.program-box-text .medium-paragraph {
-	margin-top: 20px;
-	margin-bottom: 10px;
 }

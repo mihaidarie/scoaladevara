@@ -45,9 +45,6 @@ h3 {
 img { 
 	max-width: 100%;
 }
-.medium-paragraph {
-	font-size: 18px;
-}
 .colored-text { 
 	color: #bd5a10;
 }
@@ -72,22 +69,11 @@ img {
 .section-container-image-bg .divider-1 span {
 	border-color: black;
 }
-.section-description {
-	margin-top: 60px;
-    padding-bottom: 10px;
-}
-.section-description p {
-    margin-top: 20px;
-	padding: 0 120px;
-}
-.section-container-image-bg .section-description p {
+.section-container-image-bg p {
 	opacity: 0.8;
 }
 .section-bottom-button {
 	padding-top: 60px;
-}
-ul.open {
-   list-style-type: circle;
 }
 #topDivider {
 	width: 80%;
@@ -96,4 +82,7 @@ ul.open {
 	display: inline-block;
 	width: 200px;
 	border-bottom: 1px dotted black;
+}
+#program, #registration, #venue, #support, #history, #footer {
+	background-color: #c9eae7;
 }
