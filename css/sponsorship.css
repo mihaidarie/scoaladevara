@@ -2,16 +2,6 @@
 	margin-top: 30px;
 	text-align: left;
 }
-.support-box-image {
-	margin-top: 20px;
-	overflow: hidden;
-}
-.support-box-image img {
-	-o-transition: all .8s; -moz-transition: all .8s; -webkit-transition: all .8s; -ms-transition: all .8s; transition: all .8s;
-}
-.support-box-image:hover img {
-	-o-transform: scale(1.2); -moz-transform: scale(1.2); -webkit-transform: scale(1.2); -ms-transform: scale(1.2); transform: scale(1.2);
-}
 .support-box h3 {
 	margin-top: 0;
 }
