@@ -1,6 +1,6 @@
 .inner-bg {
 	padding-bottom: 3em;
-	background-color: #c0cac9;
+	background-color: #c9eae7;
  }
 .top-content .text {
 	color: #fff;
@@ -19,7 +19,7 @@
 .top-content div.transbox {
   margin: 50px 50px 0px;
   padding: 50px 50px 10px;
-  background-color: #a9a69fd1;
+  background-color: #bb99f3d4;
   opacity: 0.8;
   -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;
   filter: alpha(opacity=80); /* For IE8 and earlier */
