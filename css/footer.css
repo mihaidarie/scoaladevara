@@ -1,14 +1,5 @@
-footer {
-	padding: 40px 0 0 0;
-}
 .contact-form {
 	padding-top: 20px;
-}
-.contact-form textarea {
-	height: 100px;
-}
-.contact-form .input-error {
-	border-color: #bd5a10;
 }
 .footer-bottom {
 	margin-top: 60px;
@@ -23,5 +14,5 @@ footer {
     line-height: 40px;
 }
 .footer-bottom a:hover, .footer-bottom a:focus { 
-	color: #bd5a10; 
+	color: #bd5a10;
 }

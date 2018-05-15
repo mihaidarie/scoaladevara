@@ -6,9 +6,11 @@
 	margin-top: 30px;
 }
 .venue-box h3 a { 
-	color: #555; }
+	color: #555; 
+}
 .venue-box h3 a:hover, .venue-box h3 a:focus { 
-	color: #bd5a10; }
+	color: #bd5a10; 
+}
 .venue-box h3 i {
 	padding-left: 10px;
 	color: #ccc;
@@ -19,8 +21,5 @@
 	transition: all .3s;
 }
 .venue-box h3:hover i { 
-	padding-left: 15px; 
-}
-.venue-container .section-bottom-button {
-	padding-top: 40px;
+	padding-left: 15px;
 }

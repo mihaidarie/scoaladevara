@@ -1,4 +1,3 @@
-/***** Table *****/
 .table-text {
 	color: #092505; 
 }
@@ -21,8 +20,6 @@
 .table-responsive>.table>tfoot>tr>td {
     white-space: nowrap;
 }
-
- /***** Panel *****/
 .panel .panel-heading {
 	background-color:#c9eae7;
 }

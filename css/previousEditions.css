@@ -1,25 +1,6 @@
 .history-container  {
 	overflow: hidden;
 }
-.history-box {
-	margin-top: 20px;
-	text-align: left;
-}
-.history-box-text {
-	margin-top: 20px;
-	margin-bottom: 40px;
-	padding-right: 20px;
-}
-.history-box-image {
-	margin-top: 50px;
-	overflow: hidden;
-}
-.history-box-image img {
-	-o-transition: all .8s; -moz-transition: all .8s; -webkit-transition: all .8s; -ms-transition: all .8s; transition: all .8s;
-}
-.history-box-image:hover img {
-	-o-transform: scale(1.25); -moz-transform: scale(1.25); -webkit-transform: scale(1.25); -ms-transform: scale(1.25); transform: scale(1.25);
-}
 #photos img {
 	width: 8em;
 	height: 5em;

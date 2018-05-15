@@ -21,8 +21,10 @@
   padding: 50px 50px 10px;
   background-color: #bb99f3d4;
   opacity: 0.8;
-  -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;
-  filter: alpha(opacity=80); /* For IE8 and earlier */
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	border-radius: 5px;
+  filter: alpha(opacity=80);
 }
 .top-content div.transbox p {
   font-weight: 700;
