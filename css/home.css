@@ -1,37 +1,31 @@
-.inner-bg {
+.containerBackground {
 	padding-bottom: 3em;
 	background-color: #c9eae7;
  }
-.top-content .text {
-	color: #fff;
+.homeSection .text h2 {
+	margin-top: 10px;
 }
-.top-content .text h1 {
+.homeSection .text h1 {
 	margin-top: 40px;
 	color: black;
 }
-.top-content .text h2 {
-	margin-top: 10px;
-	color: black;
+.homeSection div.eventDescription h3 {
+	color: #000;
+	font-weight: 900;
 }
-.top-content .description {
+.homeSection .description {
 	margin: 30px 0 10px;
 }
-.top-content div.transbox {
+.homeSection div.eventDescription {
+	-moz-border-radius: 20px; 
+	-webkit-border-radius: 20px; 
+	border-radius: 20px;
   margin: 50px 50px 0px;
   padding: 50px 50px 10px;
   background-color: #bb99f3d4;
-  opacity: 0.8;
-	-moz-border-radius: 5px; 
-	-webkit-border-radius: 5px; 
-	border-radius: 5px;
-  filter: alpha(opacity=80);
 }
-.top-content div.transbox p {
+.homeSection div.eventDescription p {
   font-weight: 700;
+  line-height: 26px;
   color: #000000;
-  line-height: 26px; 
-}
-.top-content div.transbox h3 {
-	color: #000;
-	font-weight: 900;
 }

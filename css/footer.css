@@ -1,18 +1,15 @@
-.contact-form {
+.contactSection {
 	padding-top: 20px;
 }
-.footer-bottom {
+.footerContainer {
 	margin-top: 60px;
 	padding-top: 15px;
 	padding-bottom: 25px;
 	background-color: #c9eae7;
 	text-align: center;
 }
-.footer-bottom a {
+.footerContainer a {
 	font-size: 20px;
     color:#bd5a10;
     line-height: 40px;
-}
-.footer-bottom a:hover, .footer-bottom a:focus { 
-	color: #bd5a10;
 }

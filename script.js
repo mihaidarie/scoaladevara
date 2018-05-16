@@ -5,7 +5,7 @@ $(document).ready(function() {
 		var menuHeight = $('nav').outerHeight();
 		var targetElementClass = clickedAnchor.attr('href').replace('#', '.');
 		var scroll_to = 0;
-		if(targetElementClass != '.top-content') {
+		if(targetElementClass != '.homeSection') {
 			targetElementClass += '-container';
 			scroll_to = $(targetElementClass).offset().top - menuHeight;
 		}

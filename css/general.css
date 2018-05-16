@@ -1,3 +1,6 @@
+#program, #registration, #venue, #support, #history, #footer {
+	background-color: #c9eae7;
+}
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -6,24 +9,28 @@ body {
     line-height: 30px;
     text-align: center;
 }
+.dottedLine span {
+	display: inline-block;
+	border-bottom: 1px dotted black;
+	width: 200px;
+}
 strong { 
-	font-weight: 600; 
+	font-weight: 600;
+}
+#topDivider {
+	width: 80%;
 }
 a, a:hover, a:focus {
 	color: #bd5a10;
-	text-decoration: none;
-	-o-transition: all .3s; 
-	-moz-transition: all .3s; 
-	-webkit-transition: all .3s; 
-	-ms-transition: all .3s; 
-	transition: all .3s;
+}
+.containerMargin {
+    margin: 0 auto;
 }
 h1 {
 	margin-top: 10px;
 	margin-bottom: 20px;
 	font-size: 40px;
     font-weight: 800;
-    color: #555;
     line-height: 60px;
     font-style: italic;
 }
@@ -42,31 +49,6 @@ h3 {
     line-height: 28px;
     font-style: italic;
 }
-img { 
+img {
 	max-width: 100%;
-}
-.section-container {
-    margin: 0 auto;
-}
-.section-container-image-bg, 
-.section-container-image-bg h2, 
-.section-container-image-bg h3 {
-	color:black;
-}
-.section-container-image-bg .divider-1 span {
-	border-color: black;
-}
-.section-container-image-bg p {
-	opacity: 0.8;
-}
-#topDivider {
-	width: 80%;
-}
-.divider-1 span {
-	display: inline-block;
-	width: 200px;
-	border-bottom: 1px dotted black;
-}
-#program, #registration, #venue, #support, #history, #footer {
-	background-color: #c9eae7;
 }
