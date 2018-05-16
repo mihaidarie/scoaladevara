@@ -1,0 +1,29 @@
+/* used for overriding some of bootstrap's styles */
+.panel .panel-heading {
+	background-color: #c9eae7;
+}
+.panel-default {
+	background-color: #c9eae7;
+}
+.panel-title {
+    font-size: 25px;
+}
+.table-responsive>.table>thead>tr>th,
+.table-responsive>.table>tbody>tr>th,
+.table-responsive>.table>tfoot>tr>th,
+.table-responsive>.table>thead>tr>td,
+.table-responsive>.table>tbody>tr>td,
+.table-responsive>.table>tfoot>tr>td {
+    white-space: nowrap;
+}
+.table-responsive {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    -webkit-overflow-scrolling: touch;
+}
+.table-responsive>.table { 
+    margin-bottom: 0;
+}

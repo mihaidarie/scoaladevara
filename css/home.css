@@ -9,13 +9,6 @@
 	margin-top: 40px;
 	color: black;
 }
-.homeSection div.eventDescription h3 {
-	color: #000;
-	font-weight: 900;
-}
-.homeSection .description {
-	margin: 30px 0 10px;
-}
 .homeSection div.eventDescription {
 	-moz-border-radius: 20px; 
 	-webkit-border-radius: 20px; 

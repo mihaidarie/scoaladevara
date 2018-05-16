@@ -1,9 +1,5 @@
-.history-container  {
+.previousEditionsNavigationLink  {
 	overflow: hidden;
-}
-#photos img {
-	width: 8em;
-	height: 5em;
 }
 .firstEditionYear {
 	text-decoration: underline;
@@ -16,10 +12,7 @@
 	font-size: 20px;
 	color: #d03909;
 }
-.firstEditionGallery {
-	font-size: 20px;
-}
-.firstEditionSupport {
+.firstEditionGallery, .firstEditionSupport {
 	font-size: 20px;
 }
 .firstEditionSupportHeader {
@@ -27,4 +20,8 @@
 }
 .rowMarginBottom {
 	margin-bottom: 2em;
+}
+#photos img {
+	width: 8em;
+	height: 5em;
 }

@@ -6,7 +6,7 @@ $(document).ready(function() {
 		var targetElementClass = clickedAnchor.attr('href').replace('#', '.');
 		var scroll_to = 0;
 		if(targetElementClass != '.homeSection') {
-			targetElementClass += '-container';
+			targetElementClass += 'NavigationLink';
 			scroll_to = $(targetElementClass).offset().top - menuHeight;
 		}
 		if($(window).scrollTop() != scroll_to) {
