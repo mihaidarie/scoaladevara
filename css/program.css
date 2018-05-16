@@ -1,19 +1,16 @@
 .programNavigationLink {
 	overflow: hidden;
 }
-.program-box-text {
+.programSection {
 	margin-top: 40px;
 	padding-left: 30px;
+	padding-right: 30px;
 	overflow: hidden;
 	text-align: left;
 }
-.program-box-text:first-child { 
-	margin-top: 20px; 
+.programSection:first-child { 
+	margin-top: 20px;
 }
-.program-box-text-left {
-	padding-left: 0;
-	padding-right: 30px;
-}
-.program-box-text h3 {
+.programSection h3 {
 	margin-top: 0;
 }
