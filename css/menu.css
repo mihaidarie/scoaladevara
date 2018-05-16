@@ -1,51 +1,17 @@
-.navbar {
-	margin-bottom: 0;
+.navbar.menuBackground {
 	background: #a9193a;
-	border: 0;
-    -o-transition: all .6s; 
-    -moz-transition: all .6s; 
-    -webkit-transition: all .6s; 
-    -ms-transition: all .6s; 
-    transition: all .6s;
-}
-.navbar.navbar-no-bg { 
-	background: #a9193a;
-}
-.navbar-right { 
-	margin-right: 0; 
 }
 ul.navbar-nav {
 	font-size: 15px;
-	color: #fff;
 	text-transform: uppercase;
-}
-.navbar-inverse ul.navbar-nav li a { 
-    padding-top: 20px; 
-    padding-bottom: 20px; 
-    padding-right: 5px; 
-    color: #fff; 
-    opacity: 0.8; 
-}
-.navbar-inverse ul.navbar-nav li a:hover { 
-    color: #fff; 
-    opacity: 1; 
-}
-.navbar-inverse ul.navbar-nav li a:focus { 
-    color: #fff; 
-    outline: 0; 
-    opacity: 1; 
-}
-.navbar-text a {
-	margin: 0 8px;
-	font-size: 26px;
 	color: #fff;
-	line-height: 28px;
-	opacity: 0.8;
 }
-.navbar-text a:hover { 
-	opacity: 1; 
+.navbar-inverse ul.navbar-nav li a {
+  padding-top: 20px;
+  color: #fff;
+  padding-right: 5px;
+  padding-bottom: 20px;
 }
-.navbar-toggle {
-	margin-top: 13px;
-	margin-bottom: 13px;
+.navbar-inverse ul.navbar-nav li a:hover {
+  color: rgba(255, 255, 255, 0.699);
 }

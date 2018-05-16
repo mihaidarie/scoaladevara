@@ -10,15 +10,15 @@
 	color: black;
 }
 .homeSection div.eventDescription {
-	-moz-border-radius: 20px; 
-	-webkit-border-radius: 20px; 
+	-moz-border-radius: 20px;
 	border-radius: 20px;
   margin: 50px 50px 0px;
   padding: 50px 50px 10px;
   background-color: #bb99f3d4;
+	-webkit-border-radius: 20px;
 }
 .homeSection div.eventDescription p {
   font-weight: 700;
   line-height: 26px;
-  color: #000000;
+  color: black;
 }
