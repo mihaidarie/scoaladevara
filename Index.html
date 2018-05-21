@@ -4,8 +4,8 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>PROTEOMICS – from Introduction to Clinical Applications</title>
-  <link rel="stylesheet" href="bootstrap.min.css"/>
-  <link rel="stylesheet" href="css/masterStyle.css"/>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+  <!-- <link rel="stylesheet" href="css/masterStyle.css"/>
   <link rel="stylesheet" href="css/menu.css"/>
   <link rel="stylesheet" href="css/program.css"/>
   <link rel="stylesheet" href="css/home.css"/>
@@ -13,7 +13,233 @@
   <link rel="stylesheet" href="css/locations.css"/>
   <link rel="stylesheet" href="css/previousEditions.css"/>
   <link rel="stylesheet" href="css/bootstrapOverride.css"/>
-  <link rel="stylesheet" href="css/footer.css"/>
+  <link rel="stylesheet" href="css/footer.css"/> -->
+  <style>
+    /* used for overriding some of bootstrap's styles */
+    .panel .panel-heading {
+      background-color: #c9eae7;
+    }
+    .panel-default {
+      background-color: #c9eae7;
+    }
+    .panel-title {
+      font-size: 25px;
+    }
+    .table-responsive>.table>thead>tr>th,
+    .table-responsive>.table>tbody>tr>th,
+    .table-responsive>.table>tfoot>tr>th,
+    .table-responsive>.table>thead>tr>td,
+    .table-responsive>.table>tbody>tr>td,
+    .table-responsive>.table>tfoot>tr>td {
+      white-space: nowrap;
+    }
+    .table-responsive {
+      width: 100%;
+      margin-bottom: 15px;
+      overflow-y: hidden;
+      overflow-x: scroll;
+      -ms-overflow-style: -ms-autohiding-scrollbar;
+      -webkit-overflow-scrolling: touch;
+    }
+    .table-responsive>.table { 
+      margin-bottom: 0;
+    }
+  </style>
+  <style>
+    .contactSection {
+      padding-top: 20px;
+    }
+    .footerContainer {
+      margin-top: 60px;
+      padding-top: 15px;
+      padding-bottom: 25px;
+      background-color: #c9eae7;
+      text-align: center;
+    }
+    .footerContainer a {
+      font-size: 20px;
+      color:#bd5a10;
+      line-height: 40px;
+    }
+  </style>
+  <style>
+    .containerBackground {
+      padding-bottom: 3em;
+      background-color: #c9eae7;
+    }
+    .homeSection {
+      margin-top: 5em;
+    }
+    .homeSection .text h2 {
+      margin-top: 2em;
+    }
+    .homeSection .text h1 {
+      margin-top: 40px;
+      color: black;
+    }
+    .homeSection div.eventDescription {
+      -moz-border-radius: 20px;
+      border-radius: 20px;
+      margin: 50px 50px 0px;
+      padding: 30px 30px 10px;
+      background-color: #bb99f36e;
+      -webkit-border-radius: 20px;
+    }
+    .homeSection div.eventDescription p {
+      font-weight: 700;
+      line-height: 26px;
+      color: black;
+      text-align: justify;
+    }
+  </style>
+  <style>
+    .accomodationSection {
+      padding-top: 30px;
+      text-align: left;
+    }
+  </style>
+  <style>
+    #eventProgram, #eventRegistration, #accomodation, #sponsorship, #previousEditions, #footerSection {
+      background-color: #c9eae7;
+    }
+    body {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      color: black;
+      line-height: 30px;
+      text-align: center;
+      background-color: #c9eae7;
+    }
+    .upArrow {
+      transform: rotate(-135deg);
+      -webkit-transform: rotate(-135deg);
+      -moz-transform: rotate(-135deg);
+    }
+    i {
+      border: solid #1016d6;
+      border-width: 0 3px 3px 0;
+      display: inline-block;
+      padding: 3px;
+    }
+    .sectionTitle {
+      font-style: normal;
+      text-decoration: underline;
+    }
+    #topDivider {
+      width: 80%;
+    }
+    a, a:hover, a:focus {
+      color: #bd5a10;
+    }
+    .containerMargin {
+      margin: 0 auto;
+    }
+    h1 {
+      margin-top: 10px;
+      margin-bottom: 20px;
+      font-size: 40px;
+      font-weight: 800;
+      line-height: 40px;
+      font-style: italic;
+    }
+    h2 {
+      margin-top: 10px;
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 40px;
+      font-style: italic;
+    }
+    h3 {
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 28px;
+      font-style: italic;
+    }
+    img {
+      max-width: 100%;
+    }
+    strong {
+      font-weight: 600;
+    }
+  </style>
+  <style>
+    .navbar.menuBackground {
+      background: #a9193a;
+    }
+    ul.navbar-nav {
+      font-size: 15px;
+      text-transform: uppercase;
+      color: #fff;
+    }
+    .navbar-inverse ul.navbar-nav li a {
+      padding-top: 20px;
+      color: #fff;
+      padding-right: 5px;
+      padding-bottom: 20px;
+    }
+    .navbar-inverse ul.navbar-nav li a:hover {
+      color: rgba(255, 255, 255, 0.699);
+    }
+  </style>
+  <style>
+    .previousEditionsNavigationLink  {
+      overflow: hidden;
+    }
+    .firstEditionYear {
+      text-decoration: underline;
+      font-size: 28px;
+    }
+    .firstEditionTitle {
+      font-size: 20px;
+    }
+    .firstEditionProgram {
+      font-size: 20px;
+      color: #d03909;
+    }
+    .firstEditionGallery, .firstEditionSupport {
+      font-size: 20px;
+    }
+    .firstEditionSupportHeader {
+      margin-top: 1em;
+    }
+    .rowMarginBottom {
+      margin-bottom: 2em;
+    }
+    #photos2017 img {
+      width: 8em;
+      height: 5em;
+    }
+  </style>
+  <style>
+    .eventProgramNavigationLink {
+      overflow: hidden;
+    }
+    .programSection {
+      margin-top: 40px;
+      padding-left: 30px;
+      padding-right: 30px;
+      overflow: hidden;
+      text-align: left;
+    }
+    .programSection:first-child { 
+      margin-top: 20px;
+    }
+    .programSection h3 {
+      margin-top: 0;
+    }
+  </style>
+  <style>
+    .paymentText {
+      margin-top: 40px;
+      overflow: hidden;
+      text-align: left;
+      padding-left: 30px;
+    }
+    .paymentDetails {
+      margin-top: 1em;
+    }
+  </style>
 </head>
 <body>
   <nav class="navbar navbar-fixed-top navbar-inverse menuBackground">
@@ -487,8 +713,25 @@
         </div>
     </footer>
   </div>
-  <script src="jquery.min.js"></script>
-  <script src="bootstrap.min.js"></script>
-  <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+    $('a.scrollToElement').click(function(e) {
+      e.preventDefault();
+      var clickedAnchor = $(this);
+      var menuHeight = $('nav').outerHeight();
+      var targetElementClass = clickedAnchor.attr('href').replace('#', '.');
+      var scroll_to = 0;
+      if(targetElementClass != '.homeSection') {
+        targetElementClass += 'NavigationLink';
+        scroll_to = $(targetElementClass).offset().top - menuHeight;
+      }
+      if($(window).scrollTop() != scroll_to) {
+        $('html, body').stop().animate({scrollTop: scroll_to}, 1000);
+      }
+    });
+  });
+  </script>
 </body>
 </html>
